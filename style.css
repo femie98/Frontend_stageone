@@ -1,0 +1,51 @@
+body {
+    background-color: #000;
+    color: #fff; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    text-align: center; 
+}
+
+header {
+    margin: 2rem; 
+}
+
+h1[data-testid="slackUserName"] {
+    font-size: 30px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+}
+
+img[data-testid="slackDisplayImage"] {
+    width: 200px; 
+    height: 200px; 
+    display: block; 
+    margin: 0 auto; 
+    border-radius: 50%; 
+    border: 3px solid #fff; 
+    margin-top: 3rem; 
+}
+
+[data-testid="currentDayOfTheWeek"], [data-testid="currentUTCTime"] {
+    font-size: 18px; 
+    margin-top: 1rem; 
+}
+
+[data-testid="myTrack"] {
+    font-size: 20px; 
+    margin-top: 1rem;
+}
+
+[data-testid="githubURL"] {
+    font-size: 16px; 
+    margin-top: 1rem; 
+    display: inline-block; 
+    padding: 0.5rem 1rem; 
+    background-color: #0053a7; 
+    color: #fff; 
+    text-decoration: none; 
+    border-radius: 5px; 
+}
+
+[data-testid="githubURL"]:hover {
+    background-color: rgb(21, 21, 24); 
+}
